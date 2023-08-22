@@ -1,0 +1,35 @@
+# Enable auto build file generation
+auto_gen_build_files: true
+
+# Project type [web_app, test_runner]
+project_type: web_app
+
+# Output name for application
+output_name: tizen-app
+
+# list of certs in web project (.trust-anchor)
+trust_anchor: []
+
+# list of files in web project (.html,.css etc) and resources
+files:
+  - css/style.css
+  - icon.png
+  - index.html
+  - main.js
+
+# list of files to exclude based on the matched patterns
+excludes:
+  - .build/*
+  - .buildResult/*
+  - .csproj
+  - .externalToolBuilders/*
+  - .package/*
+  - .project
+  - .rds_delta
+  - .sdk_delta.info
+  - .settings/*
+  - .sign/*
+  - .tizen-ui-builder-tool.xml
+  - .tproject
+  - .wgt
+  - webUnitTest/*

@@ -1,0 +1,18 @@
+import("$tizen_core/build/web/project.gni")
+
+web_project("tizen-app") {
+  files = [
+      "css/style.css",
+      "icon.png",
+      "index.html",
+      "main.js",
+  ]
+
+if (opt) {
+  opt_files = [
+  ]
+}
+  
+  deps = [
+  ]
+}
